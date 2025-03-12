@@ -6,9 +6,12 @@
   Try assigning a value to score and run the code again to see the change
   */
 
+import 'dart:io';
 void main() {
   int? score;
   print(score ?? 'No score');
-  score = 20;
-  print(score );
+  print('Enter your score');
+  String input = stdin.readLineSync()!; 
+   score = int.tryParse(input);
+  print('Score: ${score ?? 'No score'}' );
 }

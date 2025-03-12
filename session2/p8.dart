@@ -8,8 +8,12 @@ Nested If for Temperature Ranges
    Otherwise, print 'It's cold.'.
    */
 
+import 'dart:io';
 void main() {
-  int temperature = 60;
+  print('Enter the temperature');
+  String input = stdin.readLineSync()!;
+  int temperature = int.parse(input);
+
   if (temperature > 30) {
     print("It's hot");
   } else if (temperature >= 15 && temperature <= 30) {

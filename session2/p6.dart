@@ -5,8 +5,11 @@
   If password equals 'secret', print 'Access granted', otherwise print 'Access denied'.
   */
 
-void main() {
-  String password = 'secret';
+ import 'dart:io';
+ void main() {
+  print('Enter password');
+  String  password = stdin.readLineSync()!;
+  
   if (password == 'secret') {
     print('Access granted');
   } else {

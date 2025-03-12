@@ -5,9 +5,12 @@
   Create an integer variable marks.-
    If marks is 70 or higher, print 'Passed', otherwise print 'Failed'.
    */
+import 'dart:io';
 
 void main() {
-  int marks = 90;
+  print('Enter your marks');
+  String input = stdin.readLineSync()!;
+  int marks = int.parse(input);
   if (marks >= 70) {
     print('passed');
   } else {
