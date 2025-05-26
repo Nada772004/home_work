@@ -12,21 +12,16 @@ class QuestionModel extends Equatable {
     required this.correctAnswer,
     this.selectedAnswer = '',
   });
-  
-  @override
-  List<Object?> get props => [
-        question,
-        options,
-        correctAnswer,
-      ];
 
-      @override
+  @override
+  List<Object?> get props => [question, options, correctAnswer];
+
+  @override
   String toString() {
     // TODO: implement toString
     return 'QuestionModel{question: $question, options: $options, correctAnswer: $correctAnswer, selectedAnswer: $selectedAnswer}';
   }
 }
-
 
 List<QuestionModel> questions = [
   QuestionModel(
@@ -49,5 +44,4 @@ List<QuestionModel> questions = [
     options: ['0', '1', '2', '3'],
     correctAnswer: '2',
   ),
-
 ];
