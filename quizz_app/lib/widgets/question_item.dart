@@ -6,7 +6,12 @@ import 'package:quizz_app/widgets/question_header.dart';
 import 'package:quizz_app/widgets/question_options.dart';
 
 class QuestionItem extends StatelessWidget {
-  const QuestionItem({super.key, required this.question, required this.index, required this.questionManager});
+  const QuestionItem({
+    super.key,
+    required this.question,
+    required this.index,
+    required this.questionManager,
+  });
 
   final QuestionModel question;
   final int index;

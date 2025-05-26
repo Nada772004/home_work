@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:quizz_app/models/question_manager.dart';
-import 'package:quizz_app/models/question_model.dart';
 import 'package:quizz_app/widgets/option_item.dart';
 
 class QuestionOptions extends StatefulWidget {

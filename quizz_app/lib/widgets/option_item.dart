@@ -17,7 +17,7 @@ class InActiveOptionItem extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(15),
         decoration: ShapeDecoration(
-          color: Colors.white /* MAINE-WHITE */,
+          color: Colors.white ,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
@@ -36,7 +36,7 @@ class InActiveOptionItem extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   side: BorderSide(
                     width: 1,
-                    color: const Color(0xFF2B0062) /* MAINE-VIOLET */,
+                    color: const Color(0xFF2B0062) ,
                   ),
                   borderRadius: BorderRadius.circular(9.50),
                 ),
@@ -81,7 +81,7 @@ class ActiveOptionItem extends StatelessWidget {
             width: 19,
             padding: const EdgeInsets.all(5),
             decoration: ShapeDecoration(
-              color: const Color(0xFF2B0062) /* MAINE-VIOLET */,
+              color: const Color(0xFF2B0062) ,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(9.50),
               ),

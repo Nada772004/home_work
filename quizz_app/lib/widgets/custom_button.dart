@@ -3,11 +3,15 @@ import 'package:quizz_app/styles/app_text_styles.dart';
 
 class CustomButton extends StatelessWidget {
   final VoidCallback onPressed;
-  final String text ;
+  final String text;
   final double width;
- 
 
-  const CustomButton({super.key, required this.onPressed, required this.text, this.width=300});
+  const CustomButton({
+    super.key,
+    required this.onPressed,
+    required this.text,
+    this.width = 300,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +28,8 @@ class CustomButton extends StatelessWidget {
         ),
         child: Text(
           text,
-          style: AppTextStyles.medium18(
-            color: Color(0xFF2B0062)),
-        )
+          style: AppTextStyles.medium18(color: Color(0xFF2B0062)),
+        ),
       ),
     );
   }

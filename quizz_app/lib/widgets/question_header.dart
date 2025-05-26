@@ -14,11 +14,11 @@ class QuestionHeader extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(10),
       decoration: ShapeDecoration(
-        color: const Color(0xFF8D83FF) /* SECONDARY-VIOLET */,
+        color: const Color(0xFF8D83FF) ,
         shape: RoundedRectangleBorder(
           side: BorderSide(
             width: 1,
-            color: const Color(0xFFB8B2FF) /* OUTLINE-VIOLET */,
+            color: const Color(0xFFB8B2FF) ,
           ),
           borderRadius: BorderRadius.circular(100),
         ),

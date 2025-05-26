@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quizz_app/constants/assets.dart';
 import 'package:quizz_app/views/home_view.dart';
 
 void main() {
